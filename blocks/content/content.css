@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 92px;
+  box-sizing: border-box;
+  padding-top: 56px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1124px) {
+  .content {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .content {
+    padding-bottom: 88px;
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .content {
+    padding-bottom: 64px;
+    row-gap: 64px;
+  }
+}
