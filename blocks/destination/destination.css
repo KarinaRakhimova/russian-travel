@@ -1,0 +1,39 @@
+.destination {
+  display: grid;
+  grid-template-columns: fit-content(460px) minmax(min-content, max-content);
+  grid-template-rows: repeat(2, min-content);
+  row-gap: 48px;
+  column-gap: 40px;
+  justify-items: start;
+}
+
+.destination__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+  }
+
+.destination__website {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.destination__image {
+  width: 100%;
+}
+
+.destination__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+.destination__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.63;
+}

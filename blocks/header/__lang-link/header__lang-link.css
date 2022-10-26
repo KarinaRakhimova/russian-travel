@@ -7,10 +7,11 @@
   transition: opacity 0.3s;
 }
 
-.header__lang-link:hover {
+.header__lang-link_lang_active {
   text-decoration: underline;
-  opacity: 0.8;
+
 }
+
 
 @media screen and (max-width: 568px) {
   .header__lang-link {

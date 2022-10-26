@@ -24,25 +24,27 @@
   opacity: 0.3;
   transition: 0.5s;
 }
-.cover__item:hover::before {
-  opacity: 0.6;
-}
 
-
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1024px) {
   .cover__item {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 768px) {
   .cover__item {
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .cover__item {
-    min-height: 235px;
+    min-height: 266px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__item {
+    min-height: 200px;
   }
 }
