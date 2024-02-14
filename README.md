@@ -10,3 +10,6 @@
 
 ## Ссылка на GitHub
 https://karinarakhimova.github.io/russian-travel/index.html
+
+**Планы по доработке**
+Проект завершен, доработки не планируются.
