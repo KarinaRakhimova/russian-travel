@@ -9,7 +9,7 @@
   * Адаптивная верстка реализована при помощи медиазапросов.
 
 ## Screenshot:
-
+![Screenshot](https://github.com/KarinaRakhimova/russian-travel/blob/main/Screenshot.png)
 
 ## Ссылка на проект:
 https://karinarakhimova.github.io/russian-travel/index.html
